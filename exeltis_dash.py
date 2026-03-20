@@ -27,11 +27,11 @@ st.markdown("""
     </p>
 """, unsafe_allow_html=True)
 
-st.set_page_config(
-    page_title="Exeltis Sales Dashboard",
-    page_icon="📊",
-    layout="wide",
-)
+#st.set_page_config(
+#    page_title="Exeltis Sales Dashboard",
+#    page_icon="📊",
+#    layout="wide",
+#)
 
 CITY_MAPPING = {
     "bandung": "Bandung",
