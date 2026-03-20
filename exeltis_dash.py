@@ -20,6 +20,14 @@ from plotly.subplots import make_subplots
 # Configuration / Constants
 # =========================
 
+st.markdown("""
+    <style>
+    .block-container {
+        padding-top: 2rem;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 st.set_page_config(
     page_title="Exeltis Sales Dashboard",
     page_icon="📊",
