@@ -20,18 +20,11 @@ from plotly.subplots import make_subplots
 # Configuration / Constants
 # =========================
 
-st.markdown("""
-    <h1 style='text-align: center;'>EXELTIS SALES DASHBOARD</h1>
-    <p style='text-align: center; color: grey;'>
-        Interactive dashboard from raw distributor data to cleaned sales insight
-    </p>
-""", unsafe_allow_html=True)
-
-#st.set_page_config(
-#    page_title="Exeltis Sales Dashboard",
-#    page_icon="📊",
-#    layout="wide",
-#)
+st.set_page_config(
+    page_title="Exeltis Sales Dashboard",
+    page_icon="📊",
+    layout="wide",
+)
 
 CITY_MAPPING = {
     "bandung": "Bandung",
